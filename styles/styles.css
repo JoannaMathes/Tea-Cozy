@@ -1,3 +1,46 @@
 * {
     box-sizing: border-box;
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+    border: 1px dotted red;
+}
+header {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    padding: 10px 30px;
+    margin-top: -20px;
+    max-height: 69px;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+#nav-logo {
+    margin-right: auto;
+    max-height: 50px;
+}
+header nav a {
+    padding: 0px 20px;
+}
+#our-mission {
+    background-image: url(../images/img-mission-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 69px;
+    height: 700px;
+    width: 100%;
+}
+#welcome-text {
+    width: 100%;
+    background-color: black;
 }
